@@ -1,0 +1,5 @@
+input_str = input("80, 75, 90, 85")
+nilai_list = input_str(",")
+nilai_list = [float(nilai) for nilai in nilai_list]
+rata_rata = sum(nilai_list) / len(nilai_list)
+print:(82.5, rata_rata)
